@@ -1,0 +1,67 @@
+{
+  "general": {
+    "auto_start": true,
+    "minimize_to_tray": true,
+    "check_for_updates": true,
+    "sync_on_startup": false,
+    "language": "en-US"
+  },
+  "browsers": {
+    "chrome": {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "user_data_dir": "%LOCALAPPDATA%\\Google\\Chrome\\User Data",
+      "profile": "Default",
+      "use_gui_automation": true
+    },
+    "zen": {
+      "path": "C:\\Program Files\\Zen Browser\\zen.exe",
+      "user_data_dir": "%APPDATA%\\zen",
+      "profile": "default"
+    }
+  },
+  "sync": {
+    "data_types": {
+      "passwords": true,
+      "bookmarks": true,
+      "history": true
+    },
+    "schedule": {
+      "enabled": false,
+      "interval_hours": 24,
+      "specific_time": "02:00",
+      "sync_when_idle": true,
+      "idle_time_minutes": 10
+    },
+    "auto_sync": {
+      "enabled": true,
+      "trigger_on_chrome_launch": true,
+      "trigger_on_chrome_close": false,
+      "delay_seconds": 5
+    }
+  },
+  "security": {
+    "encrypt_temp_files": true,
+    "require_auth_for_sensitive_ops": true,
+    "secure_delete_temp_files": true,
+    "log_sensitive_operations": false
+  },
+  "storage": {
+    "temp_dir": "%TEMP%\\ChromeSync",
+    "retention_days": 1,
+    "max_backups": 3
+  },
+  "logs": {
+    "dir": "%LOCALAPPDATA%\\ChromeSync\\logs",
+    "level": "INFO",
+    "max_size_mb": 10,
+    "rotation_count": 5,
+    "include_timestamps": true
+  },
+  "gui": {
+    "theme": "system",
+    "start_minimized": false,
+    "show_notifications": true,
+    "notification_timeout_sec": 5,
+    "confirm_actions": true
+  }
+}
