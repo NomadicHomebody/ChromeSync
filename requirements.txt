@@ -4,7 +4,7 @@ selenium      # Alternative to pyautogui for more reliable automation
 pandas        # Data manipulation and analysis
 cryptography  # Security operations and encryption
 pywin32       # Windows-specific operations
-# tkinter       # Built-in GUI package
+PyQt5         # Built-in GUI package
 pillow        # Image processing for GUI
 pytest        # For testing
 black         # Code formatting
